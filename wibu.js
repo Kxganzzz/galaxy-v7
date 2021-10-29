@@ -1,4 +1,4 @@
-﻿///----------( Created By W A I F U )----------\\\
+﻿///----------( Created By K Y U D I )----------\\\
 
 /**
 * Note:
@@ -409,7 +409,7 @@ var imageTime = await getBuffer('https://i.pinimg.com/736x/81/98/aa/8198aaf07083
 if(time2 < "06:00:00"){
 var imageTime = await getBuffer('https://i.pinimg.com/736x/15/8e/ea/158eea299c01433aae6744599d2fdc3a.jpg')
 }
- // FAKE REPLY BY YOGI PEWE
+ // FAKE REPLY BY Yudi 17
 // PRODUCT
 const ftok = {
 key: {
@@ -423,7 +423,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": imageTime //Gambarnye
 					},
-					"title": `${tampilUcapan} ${pushname}`, //Kasih namalu 
+					"title": `${tampilUcapan} ${pushname}`, //yudi 17 
 					"description": `${tampilUcapan} ${pushname}`, 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
