@@ -276,18 +276,18 @@ try {
 		const dfrply = fs.readFileSync('./wibu.jpg')
 		cmhit.push(command)
         mess = {
-			wait: 'Wait a minute',
-			success: 'Success',
+			wait: 'Tunggu bentar Bang',
+			success: 'Berhasil Bang',
 			error: {
 				stick: 'Cannot access videos!',
 				Iv: 'Invalid link!',
                 api: 'Error'
 			},
 			only: {
-				group: 'Only for within the group!',
-				ownerG: 'Only for group owners!',
-				ownerB: 'Only for bot owners!',
-				admin: 'Only for group admins!',
+				group: 'Khusus grup Bang Bukan Pribadi Chat!',
+				ownerG: 'Lawak Lu bukan owner grup!',
+				ownerB: 'Emang Lu Owner ?',
+				admin: 'Lah Lu Admin Sejak Kapan?',
 				Badmin: 'Make the bot a group admin!'
 			}
 		}
@@ -1077,7 +1077,7 @@ menu =`K Y U D I 🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+{buttonId:`script`,buttonText:{displayText:'🤖wm:yudi🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1467,7 +1467,7 @@ anu = wibu.prepareMessageFromContent(from,{
 gbutsan = [
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+{buttonId:`script`,buttonText:{displayText:'🤖wm:yudi🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
