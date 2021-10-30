@@ -1073,7 +1073,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`W A I F U 🏴‍☠️`
+menu =`K Y U D I 🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Yudi Permana* (CUMAN MAKE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1140,7 +1140,7 @@ stod = `${sender}`
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Yudipermana* (CUMAN MAKE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1161,7 +1161,7 @@ menunya = `╭─❒ 「 Bot Info 」 ❒
 
 ┌❏ TO DAY
 │ ${tampilUcapan}
-🏴‍☠️ Jam : ${jmn}
+🏴‍☠️ Jam : ${timeWita}
 🏴‍☠️ Hari : ${week} ${weton}
 🏴‍☠️ Tanggal : ${calender}
 └❏
@@ -1516,7 +1516,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© W A I F U_*',
+ footerText: '*_© K Y U D I_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2880,9 +2880,9 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     :* ${ovo}
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : *SCAN DI ATAS AJA*
+*│*⬡ *GOPAY    : *ada tapi tkt di blok*
 *└───────────────────*
-Scan QR di atas bila belum premium`
+Scan QR di atas bila ingin donasi`
 wibu.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
 break
        case 'debug':
